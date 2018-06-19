@@ -1,19 +1,25 @@
 package com.jiangke.redis;
 
-import org.springframework.cache.Cache;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.redis.core.RedisTemplate;
+import org.springframework.data.redis.core.ValueOperations;
+import org.springframework.stereotype.Component;
 
 /**
  * author:bazz jiang
  * date:Create in 2018-06-19
  * email:bazzjiang@gmail.com
  */
+@Component
 public class RedisCacheUtil {
-    public static boolean putCache(Cache cache, String key, Object value) {
-        if (null == value) {
-            return false;
-        }
-        cache.put(key, value);
-        return true;
+    @Autowired
+    private RedisTemplate<String,Object> redisTemplate;
+    public ValueOperations<String,Object> setCacheObject(String key, Object value)
+    {
+
+        ValueOperations<String,Object> operation = redisTemplate.opsForValue();
+        operation.set(key,value);
+        return operation;
     }
 
 }

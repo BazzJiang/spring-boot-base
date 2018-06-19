@@ -1,5 +1,6 @@
 package com.jiangke.redis;
 
+import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.cache.annotation.EnableCaching;
 import org.springframework.context.annotation.ComponentScan;
@@ -17,6 +18,7 @@ import org.springframework.test.context.testng.AbstractTestNGSpringContextTests;
 public class ApplicationBaseTest extends AbstractTestNGSpringContextTests {
     @Configuration
     @EnableCaching
+    @EnableAutoConfiguration
     @ComponentScan(basePackages = "com.jiangke")
     static class Config {
     }

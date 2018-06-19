@@ -1,8 +1,6 @@
 package com.jiangke.redis;
 
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.cache.Cache;
-import org.springframework.cache.CacheManager;
 import org.testng.annotations.Test;
 
 /**
@@ -12,10 +10,9 @@ import org.testng.annotations.Test;
  */
 public class RedisCacheUtilTest extends ApplicationBaseTest {
     @Autowired
-    private CacheManager cacheManager;
+    private RedisCacheUtil redisCacheUtil;
     @Test
-    public void putCacheTest(){
-        Cache cache = cacheManager.getCache("test_redis");
-        RedisCacheUtil.putCache(cache,"jiangke","1111");
+    public void setCacheObjectTest(){
+        redisCacheUtil.setCacheObject("111","11111");
     }
 }
