@@ -10,6 +10,8 @@
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <java.version>1.8</java.version>
+        <skipTests>true</skipTests>
+
         <lombok.version>1.16.18</lombok.version>
         <driver.version>5.1.42</driver.version>
         <testng.version>6.13.1</testng.version>
