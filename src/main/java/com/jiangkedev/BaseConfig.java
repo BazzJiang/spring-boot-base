@@ -1,4 +1,4 @@
-package com.jiangke.config;
+package com.jiangkedev;
 
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.context.annotation.ComponentScan;
@@ -11,6 +11,6 @@ import org.springframework.context.annotation.Configuration;
  */
 @EnableAutoConfiguration
 @Configuration
-@ComponentScan("com.jiangke")
+@ComponentScan("com.jiangkedev")
 public class BaseConfig {
 }

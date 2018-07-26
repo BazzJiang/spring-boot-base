@@ -1,4 +1,4 @@
-package com.jiangke.redis;
+package com.jiangkedev.redis;
 
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.boot.test.context.SpringBootTest;
@@ -19,7 +19,7 @@ public class ApplicationBaseTest extends AbstractTestNGSpringContextTests {
     @Configuration
     @EnableCaching
     @EnableAutoConfiguration
-    @ComponentScan(basePackages = "com.jiangke")
+    @ComponentScan(basePackages = "com.jiangkedev")
     static class Config {
     }
 }

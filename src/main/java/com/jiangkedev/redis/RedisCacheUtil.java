@@ -1,4 +1,4 @@
-package com.jiangke.redis;
+package com.jiangkedev.redis;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.redis.core.RedisTemplate;
