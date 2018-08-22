@@ -16,7 +16,6 @@
 
         <lombok.version>1.16.18</lombok.version>
         <driver.version>5.1.42</driver.version>
-        <testng.version>6.13.1</testng.version>
         <jsoup.version>1.11.2</jsoup.version>
         <httpclient.version>4.5.4</httpclient.version>
         <common-lang.version>2.6</common-lang.version>
