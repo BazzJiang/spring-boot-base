@@ -23,7 +23,7 @@
         <guava.version>22.0</guava.version>
         <fastjson.version>1.2.44</fastjson.version>
         <cglib.version>3.2.4</cglib.version>
-        <driver.version>5.1.42</driver.version>
+        <driver.version>8.0.13</driver.version>
         <jsoup.version>1.11.2</jsoup.version>
         <httpclient.version>4.5.4</httpclient.version>
         <shiro-spring.version>1.4.0</shiro-spring.version>
