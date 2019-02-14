@@ -9,8 +9,8 @@
     <version>1.0.0</version>
     <packaging>pom</packaging>
     <name>spring-boot-base</name>
-    <description>a common dependencies for spring booot project</description>
-    <url>https://github.com/BazzJiang/service-base</url>
+    <description>a common dependencies for spring boot project</description>
+    <url>https://github.com/BazzJiang/spring-boot-base</url>
 
     <licenses>
         <license>
@@ -21,15 +21,15 @@
     </licenses>
 
     <scm>
-        <connection>scm:git:https://github.com/BazzJiang/service-base.git</connection>
-        <developerConnection>scm:git:https://github.com/BazzJiang/service-base.git</developerConnection>
-        <url>https://github.com/BazzJiang/service-base.git</url>
+        <connection>scm:git:https://github.com/BazzJiang/spring-boot-base.git</connection>
+        <developerConnection>scm:git:https://github.com/BazzJiang/spring-boot-base.git</developerConnection>
+        <url>https://github.com/BazzJiang/spring-boot-base.git</url>
         <tag>1.0.0</tag>
     </scm>
 
     <issueManagement>
         <system>GitHub Issues</system>
-        <url>https://github.com/BazzJiang/service-base/issues</url>
+        <url>https://github.com/BazzJiang/spring-boot-base/issues</url>
     </issueManagement>
 
     <developers>
@@ -287,10 +287,4 @@
             </plugin>
         </plugins>
     </build>
-
-
-
-
-
-
 </project>
